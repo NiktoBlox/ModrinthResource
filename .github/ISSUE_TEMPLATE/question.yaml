@@ -1,30 +1,26 @@
-name: 🙋Question
-description: Having trouble? Tell me here
+name: Question
+description: Ask questions about the project
 title: "[Question]: "
 labels: ["Question"]
-assignees: []
 body:
   - type: markdown
     attributes:
-      value: "### Please enter the topic of your question above. Example [Question]: Image copyright issue "
-
-        - type: dropdown
-    id: location
+      value: |
+        Please enter the topic of your question above. Example [Question]: Image copyright issue
+  
+  - type: input
+    id: minecraft-version
     attributes:
-      label: Select version
-      description: 請選擇相關的遊戲地點
-      options:
-        - 通用
-        - 第一集-超自然之殿
-        - 第二集-廢棄的醫院 試玩版
-        - ROOM
+      label: Enter the Minecraft version
+      placeholder: e.g., 1.20.1, 1.19.4, etc.
     validations:
       required: true
-      
+  
   - type: textarea
-    id: description
+    id: detailed-description
     attributes:
-      label: 詳細說明(支持圖片拖曳到這裡)
-      placeholder: 請詳細描述你要說的問題
+      label: Detailed description (Drag support images here)
+      description: Please provide a detailed description of your question. You can drag and drop images directly into this text area.
+      placeholder: Describe your question in detail...
     validations:
       required: true
