@@ -7,14 +7,6 @@ body:
   - type: markdown
     attributes:
       value: "### Please enter the topic of your question above. Example [Question]: Image copyright issue "
-      
-  - type: input
-    id: minecraft_version
-    attributes:
-      label: Please enter the Minecraft version
-      description: Which version of Minecraft are you using?
-      placeholder: e.g. 1.20.4
-      required: true
 
         - type: dropdown
     id: location
