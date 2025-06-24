@@ -1,3 +1,5 @@
+# Pumpkin Frame Blur
+
 Do you feel that the native Pumpkin Blur obstructs the view of the screen and prevents you from having a better experience? It doesn't matter!
 
 **Use pumpkin-style frame to enhance clear vision and the best gaming experience**
