@@ -1,6 +1,6 @@
 # Pumpkin Frame Blur
 
-## [Download](https://modrinth.com/resourcepack/pumpkin-frame-blur) | [Question](https://github.com/NiktoBlox/ModrinthResource/issues/new?template=question.yaml)
+## [Download](https://modrinth.com/resourcepack/pumpkin-frame-blur) | [Problem Reporting](https://github.com/NiktoBlox/ModrinthResource/issues/new?template=question.yaml)
 
 Do you feel that the native Pumpkin Blur obstructs the view of the screen and prevents you from having a better experience? It doesn't matter!
 
