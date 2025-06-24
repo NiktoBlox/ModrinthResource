@@ -1,0 +1,38 @@
+name: 🙋Question
+description: Having trouble? Tell me here
+title: "[Question]: "
+labels: ["Question"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: "### Please enter the topic of your question above. Example [Question]: Image copyright issue "
+      
+  - type: input
+    id: minecraft_version
+    attributes:
+      label: Please enter the Minecraft version
+      description: Which version of Minecraft are you using?
+      placeholder: e.g. 1.20.4
+      required: true
+
+        - type: dropdown
+    id: location
+    attributes:
+      label: Select version
+      description: 請選擇相關的遊戲地點
+      options:
+        - 通用
+        - 第一集-超自然之殿
+        - 第二集-廢棄的醫院 試玩版
+        - ROOM
+    validations:
+      required: true
+      
+  - type: textarea
+    id: description
+    attributes:
+      label: 詳細說明(支持圖片拖曳到這裡)
+      placeholder: 請詳細描述你要說的問題
+    validations:
+      required: true
