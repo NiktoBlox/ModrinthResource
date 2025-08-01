@@ -1,6 +1,10 @@
-﻿{
+{
   "pack": {
-    "pack_format": 66,
+    "supported_formats": {
+      "min_inclusive": 1,
+      "max_inclusive": 999
+    },
+    "pack_format": 64,
     "description": "§9By @NiktoBlox §fPumpkin blur replaces the frame to provide a better view §a：）"
   }
 }
